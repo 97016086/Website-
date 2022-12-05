@@ -1,0 +1,150 @@
+body{
+    transition: 0.3s;
+    margin:4px;
+    padding:0;
+    background-color: rgb(241, 239, 239);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(57, 57, 57);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+   height:200px;
+   border-radius: 100px;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.dark .contact{
+    color: rgb(100, 121, 121);
+}
+
+.dark .homepage{
+    color: rgb(100, 121, 121);
+}
+
+.dark .project{
+    color: rgb(100, 121, 121);
+}
+.dark a{
+    color: rgb(175, 238, 238);
+}
+
+.homepage, .project, .contact{
+    color: rgb(100, 121, 121);
+}
+
+
+.navigation a{
+    margin: 5px;
+
+}
+.switch {
+    width:40px;
+    height:20px;
+    border-radius: 20px;
+    background-color: rgb(39, 38, 38);
+    position: relative;
+}
+
+.flicker {
+    width: 12px;
+    height: 12px;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 3.5px;
+    left: 2.5px;
+    transition: 0.3s;
+    box-shadow: inset 2px 2px 2px rgb(255, 255, 255),
+    inset -2px -2px 2px rgb(195 193 198 / 90%);
+
+}
+
+.dark {
+    background-color: rgb(57, 57, 57);
+    transition: 0.3s;
+}
+
+.moon {
+    width: 8px;
+    height: 8px;
+    border-radius:5px;
+    box-shadow: 2px 2px 0 0 rgb(248, 247, 221);
+    position: absolute;
+    top: 5px;
+    left: 26px;
+}
+
+.dark .flicker{
+    transform: translateX(24px);
+}
+
+.dark >* {
+    color:rgb(255, 255, 255);
+}
+
+input{
+    border-style: none;
+    margin-left: 20px;
+    border-radius: 1px;
+    background-color: rgba(216, 214, 214, 0.9)
+    
+}
+
+textarea{
+    border-style: none;
+    border-image: none;
+    resize: none;
+    border-radius: 1px;
+    background-color: rgba(216, 214, 214, 0.9);
+}
+
+.submit{
+    margin:5px;
+    border-style:none;
+    background-color: paleturquoise;
+    border-radius: 5px;
+}
+
+.submit:hover{
+    background-color: turquoise;
+}
+
+.error{
+    color:firebrick;
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 5px;
+    background-color: rgb(100, 121, 121);
+    height: 50%;
+    width: 26%;
+    border-radius: 5px;
+    margin: 10px;
+    
+
+}
+
+.programming {
+    display:flex;
+
+}
+
+h3,p,h5{
+    margin: 10px;
+}
+
